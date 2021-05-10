@@ -9,6 +9,7 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 // @ts-ignore
+import './section.css';
 import Info from "../sections/intro"
 
 const Intro = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (

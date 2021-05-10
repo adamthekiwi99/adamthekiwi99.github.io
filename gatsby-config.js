@@ -1,4 +1,4 @@
-const basePath = '/docs';
+const basePath = '/';
 const mdx = true;
 
 module.exports = {
@@ -30,18 +30,18 @@ module.exports = {
                 name: `Adam's Shop`,
                 short_name: `Adam's Shop`,
                 description: `A shop made by Adam!`,
-                start_url: `/`,
+                start_url: basePath,
                 background_color: `#141821`,
                 theme_color: `#f6ad55`,
                 display: `standalone`,
                 icons: [{
-                        src: `/android-chrome-192x192.png`,
-                        sizes: `192x192`,
+                        src: `/favicon-16x16.png`,
+                        sizes: `704x704`,
                         type: `image/png`,
                     },
                     {
-                        src: `/android-chrome-512x512.png`,
-                        sizes: `512x512`,
+                        src: `/favicon-32x32.png`,
+                        sizes: `704x704`,
                         type: `image/png`,
                     },
                 ],

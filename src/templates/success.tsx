@@ -10,13 +10,11 @@ import {loadStripe} from '@stripe/stripe-js';
 const stripePromise = loadStripe('pk_test_51IpY1nBH875LZID8M0nacoAqaWhAVv28QSmrEBjqeFCg96jEAdvSNuzvXiqy5OKTOiSuY5VBPSPsqFhLUs9VB79d000E0uQxjv');
 
 const SuccessPage = () => (
-  <Elements stripe={stripePromise}>
-    <Layout>
-      <Parallax pages={1}>
-        <Success offset={0} factor={1} />
-      </Parallax>
-    </Layout>
-  </Elements>
+  <Layout>
+    <Parallax pages={1}>
+      <Success offset={0} factor={1} />
+    </Parallax>
+  </Layout>
 )
 
 export default SuccessPage

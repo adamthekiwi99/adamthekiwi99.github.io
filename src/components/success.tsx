@@ -3,9 +3,11 @@ import { jsx } from "theme-ui"
 import Divider from "../elements/divider"
 import Inner from "../elements/inner"
 import Content from "../elements/content"
+import Footer from "../components/footer"
 import SVG from "./svg"
 import { UpDown, UpDownWide } from "../styles/animations"
 // @ts-ignore
+import './section.css';
 import Info from "../sections/success"
 
 const Success = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
@@ -43,6 +45,7 @@ const Success = ({ offset, factor = 1 }: { offset: number; factor?: number }) =>
       <Inner>
         <Info />
       </Inner>
+      <Footer />
     </Content>
   </div>
 )
