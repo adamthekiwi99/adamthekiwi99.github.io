@@ -5,6 +5,7 @@ const preferDefault = m => (m && m.default) || m
 
 
 exports.components = {
+  "component---cache-dev-404-page-js": hot(preferDefault(require("/home/adam/Documents/web/gatsby-theme-kiwi-shop/.cache/dev-404-page.js"))),
   "component---src-templates-index-tsx": hot(preferDefault(require("/home/adam/Documents/web/gatsby-theme-kiwi-shop/src/templates/index.tsx"))),
   "component---src-templates-success-tsx": hot(preferDefault(require("/home/adam/Documents/web/gatsby-theme-kiwi-shop/src/templates/success.tsx")))
 }

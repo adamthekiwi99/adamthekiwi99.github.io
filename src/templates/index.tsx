@@ -17,7 +17,7 @@ const IndexPage = () => (
   <Layout>
     <Parallax pages={5}>
       <Intro offset={0} factor={1} />
-      <ProductOneInfo offset={1} factor={1} />
+      <ProductOneInfo offset={1.25} factor={1} />
       <ProductTwoInfo offset={2} factor={1} />
       <ProductThreeInfo offset={3} factor={1} />
       <Contact offset={4} factor={1} />
