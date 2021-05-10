@@ -3,14 +3,14 @@ const mdx = true;
 
 module.exports = {
     siteMetadata: {
-        siteTitle: `Cara`,
-        siteTitleAlt: `Cara - @lekoarts/gatsby-theme-cara`,
-        siteHeadline: `Cara - Gatsby Theme from @lekoarts`,
-        siteUrl: `https://cara.lekoarts.de`,
-        siteDescription: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+        siteTitle: `Adam's Shop`,
+        siteTitleAlt: `Adam's Shop`,
+        siteHeadline: `Adam's Shop`,
+        siteUrl: `https://adamthekiwi99.github.io`,
+        siteDescription: `A shop made by Adam!`,
         siteLanguage: `en`,
-        siteImage: `/banner.jpg`,
-        author: `@lekoarts_de`,
+        siteImage: `/standard.png`,
+        author: `adamthekiwi99`,
         basePath,
     },
     plugins: [{
@@ -27,9 +27,9 @@ module.exports = {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                name: `Cara - @lekoarts/gatsby-theme-cara`,
-                short_name: `Cara`,
-                description: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+                name: `Adam's Shop`,
+                short_name: `Adam's Shop`,
+                description: `A shop made by Adam!`,
                 start_url: `/`,
                 background_color: `#141821`,
                 theme_color: `#f6ad55`,
