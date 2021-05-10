@@ -3,7 +3,7 @@ const standardBasePath = `/`
 exports.createPages = async({ actions }, themeOptions) => {
     const { createPage } = actions
 
-    const basePath = standardBasePath
+    const basePath = themeOptions.basePath || standardBasePath
 
     // createPage([{
     //     path: basePath,
@@ -18,7 +18,7 @@ exports.createPages = async({ actions }, themeOptions) => {
             component: require.resolve(`./src/templates/index.tsx`)
         }),
         createPage({
-            path: '/success',
+            path: basePath + '/success',
             component: require.resolve(`./src/templates/success.tsx`)
         }),
     ]
